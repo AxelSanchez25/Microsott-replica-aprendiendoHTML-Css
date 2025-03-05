@@ -1,19 +1,31 @@
-.nav{
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    height: 5em;
     position: sticky;
+
 }
 
-.iz{
+.iz {
     display: flex;
     align-items: center;
     flex-direction: row;
     list-style: none;
 }
 
-.de{
+.iz img{
+    height: 1.5em;
+}
+
+.de {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -21,12 +33,12 @@
 
 }
 
-.nav li{
+.nav li {
     margin-left: 2em;
 
 }
 
-.nav a{
+.nav a {
     text-transform: uppercase;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -35,18 +47,19 @@
     font-weight: 300;
 }
 
-.nav a:hover{
+.nav a:hover {
     border-bottom: 2px solid rgb(66, 208, 0);
     color: rgb(0, 219, 0);
 }
 
 
 
-.carrusel{
+.carrusel {
     overflow: hidden;
 
 }
-.slider-container{
+
+.slider-container {
     display: flex;
     position: relative;
     width: 100%;
@@ -59,19 +72,112 @@
 
 }
 
-.slider-container img{
+.slider-container img {
     flex: 0 0 100%;
     object-fit: cover;
     scroll-snap-align: center;
-    width: 20%; float: left;
+    width: 20%;
+    float: left;
 }
 
 
 
 @keyframes slidy {
-    0% { left: 0%; }
-    50% { left: -100%; }
-    75% { left: -50%; }
-    100% { left: 0%; }
-
+    0% {
+        left: 0%;
     }
+
+    50% {
+        left: -100%;
+    }
+
+    75% {
+        left: -50%;
+    }
+
+    100% {
+        left: 0%;
+    }
+
+}
+
+.articulos{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+
+}
+
+
+.arti img {
+    height: 2em;
+}
+
+.arti{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3em;
+}
+
+.arti a{
+    font-size: 1.2em;
+    text-transform: capitalize;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.5em;
+    color: rgb(0, 0, 181);
+}
+
+.cards-prods{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    position: relative;
+    width: 24em;
+    height: 30em;
+    margin: 2em;
+    box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.668);
+}
+
+.cards-prod{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5em;
+}
+
+.cards-prod h2{
+    text-transform: capitalize;
+    margin: 1em;
+}
+
+.cards-prod p{
+    text-transform: capitalize;
+    font-size: 1em;
+    margin: 1em;
+}
+
+.btn-cards{
+    position: absolute;
+    top: 27em;
+    left: 1em;
+
+}
+
+.btn-cards a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    background-color: rgba(1, 1, 131, 0.604);
+    padding: 0.5em;
+    color: white;
+}
+
+.btn-cards a:hover{
+    background-color: rgb(1, 1, 166);
+}
+
+
