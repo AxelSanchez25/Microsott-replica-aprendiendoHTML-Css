@@ -3,6 +3,7 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
+    position: sticky;
 }
 
 .iz{
@@ -39,3 +40,38 @@
     color: rgb(0, 219, 0);
 }
 
+
+
+.carrusel{
+    overflow: hidden;
+
+}
+.slider-container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    animation: 20s slidy infinite;
+    margin: 0;
+    text-align: left;
+    left: 0;
+    font-size: 0;
+
+}
+
+.slider-container img{
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    width: 20%; float: left;
+}
+
+
+
+@keyframes slidy {
+    0% { left: 0%; }
+    50% { left: -100%; }
+    75% { left: -50%; }
+    100% { left: 0%; }
+
+    }
