@@ -247,4 +247,51 @@
     font-size: 1.5em;
 }
 
+.redes{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-left: 5em;
+    text-transform: capitalize;
+}
 
+.redes img{
+    height: 2em;
+    margin-left: 1em;
+}
+
+.footer-lis{
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 5em;
+    margin-top: 5em;
+    text-transform: capitalize;
+    color: gray;
+
+
+}
+
+.footer-lis ul{
+    list-style: none;
+    line-height: 2em;
+    margin-top: 1em;
+}
+
+.footer-lis a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 13px;
+    color: gray;
+
+}
+
+.footer-lis a:hover{
+    border-bottom: 1px solid gray;
+    color: rgb(74, 73, 73);
+}
+
+.footerp{
+    display: grid;
+    grid-template-columns:repeat(6,1fr) 20em;
+}
