@@ -180,4 +180,56 @@
     background-color: rgb(1, 1, 166);
 }
 
+.fondo-game{
+    height: 20em;
+    width: 90em;
+}
+
+.fondo-game img{
+    width: 90em;
+}
+
+.c-fondo{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position:relative;
+}
+
+.tx-game{
+    position: absolute;
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    top: 12em;
+    left: 20em;
+    color: white;
+    text-transform: capitalize;
+    width: 30em;
+}
+
+.tx-game h2{
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.tx-game p{
+    line-height: 1.3em;
+}
+
+.tx-game a{
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 1.2em;
+    background-color: rgba(0, 0, 255, 0.604);
+    padding: 0.5em;
+    color: white;
+    margin-top: 1em;
+}
+
+.tx-game a:hover{
+    background-color: rgb(28, 28, 134);
+}
+
 
