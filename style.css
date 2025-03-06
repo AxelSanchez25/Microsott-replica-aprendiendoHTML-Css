@@ -107,6 +107,7 @@
     flex-direction: row;
     justify-content: center;
     margin-top: 5em;
+    margin-bottom: 4em;
 
 }
 
@@ -146,7 +147,6 @@
     align-items: center;
     flex-direction: row;
     justify-content: center;
-    margin-top: 5em;
 }
 
 .cards-prod h2{
@@ -195,6 +195,7 @@
     flex-direction: column;
     justify-content: center;
     position:relative;
+    margin-top: 3em;
 }
 
 .tx-game{
@@ -202,7 +203,7 @@
     display: flex;
     align-items: start;
     flex-direction: column;
-    top: 12em;
+    top: 14em;
     left: 20em;
     color: white;
     text-transform: capitalize;
@@ -230,6 +231,20 @@
 
 .tx-game a:hover{
     background-color: rgb(28, 28, 134);
+}
+
+.para-empresa{
+    margin-top: 20em;
+}
+
+.title-empresa{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 20em;
+    height: 3em;
+    text-transform: capitalize;
+    font-size: 1.5em;
 }
 
 
