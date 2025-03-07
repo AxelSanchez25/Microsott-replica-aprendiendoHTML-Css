@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -21,7 +21,7 @@
     list-style: none;
 }
 
-.iz img{
+.iz img {
     height: 1.5em;
 }
 
@@ -101,7 +101,7 @@
 
 }
 
-.articulos{
+.articulos {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -116,14 +116,14 @@
     height: 2em;
 }
 
-.arti{
+.arti {
     display: flex;
     align-items: center;
     flex-direction: column;
     margin-left: 3em;
 }
 
-.arti a{
+.arti a {
     font-size: 1.2em;
     text-transform: capitalize;
     font-family: Arial, Helvetica, sans-serif;
@@ -131,7 +131,7 @@
     color: rgb(0, 0, 181);
 }
 
-.cards-prods{
+.cards-prods {
     display: flex;
     flex-direction: column;
     background-color: aliceblue;
@@ -142,32 +142,32 @@
     box-shadow: 1px 1px 20px rgba(128, 128, 128, 0.668);
 }
 
-.cards-prod{
+.cards-prod {
     display: flex;
     align-items: center;
     flex-direction: row;
     justify-content: center;
 }
 
-.cards-prod h2{
+.cards-prod h2 {
     text-transform: capitalize;
     margin: 1em;
 }
 
-.cards-prod p{
+.cards-prod p {
     text-transform: capitalize;
     font-size: 1em;
     margin: 1em;
 }
 
-.btn-cards{
+.btn-cards {
     position: absolute;
     top: 27em;
     left: 1em;
 
 }
 
-.btn-cards a{
+.btn-cards a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.2em;
@@ -176,29 +176,29 @@
     color: white;
 }
 
-.btn-cards a:hover{
+.btn-cards a:hover {
     background-color: rgb(1, 1, 166);
 }
 
-.fondo-game{
+.fondo-game {
     height: 20em;
     width: 90em;
 }
 
-.fondo-game img{
+.fondo-game img {
     width: 90em;
 }
 
-.c-fondo{
+.c-fondo {
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    position:relative;
+    position: relative;
     margin-top: 3em;
 }
 
-.tx-game{
+.tx-game {
     position: absolute;
     display: flex;
     align-items: start;
@@ -210,16 +210,16 @@
     width: 30em;
 }
 
-.tx-game h2{
+.tx-game h2 {
     font-size: 2.5em;
     margin-bottom: 0.5em;
 }
 
-.tx-game p{
+.tx-game p {
     line-height: 1.3em;
 }
 
-.tx-game a{
+.tx-game a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 1.2em;
@@ -229,15 +229,15 @@
     margin-top: 1em;
 }
 
-.tx-game a:hover{
+.tx-game a:hover {
     background-color: rgb(28, 28, 134);
 }
 
-.para-empresa{
+.para-empresa {
     margin-top: 20em;
 }
 
-.title-empresa{
+.title-empresa {
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -247,7 +247,7 @@
     font-size: 1.5em;
 }
 
-.redes{
+.redes {
     display: flex;
     align-items: center;
     flex-direction: row;
@@ -255,12 +255,12 @@
     text-transform: capitalize;
 }
 
-.redes img{
+.redes img {
     height: 2em;
     margin-left: 1em;
 }
 
-.footer-lis{
+.footer-lis {
     display: flex;
     align-items: start;
     flex-direction: column;
@@ -272,13 +272,13 @@
 
 }
 
-.footer-lis ul{
+.footer-lis ul {
     list-style: none;
     line-height: 2em;
     margin-top: 1em;
 }
 
-.footer-lis a{
+.footer-lis a {
     text-decoration: none;
     text-transform: capitalize;
     font-size: 13px;
@@ -286,12 +286,67 @@
 
 }
 
-.footer-lis a:hover{
+.footer-lis a:hover {
     border-bottom: 1px solid gray;
     color: rgb(74, 73, 73);
 }
 
-.footerp{
+.footerp {
     display: grid;
-    grid-template-columns:repeat(6,1fr) 20em;
+    grid-template-columns: repeat(6, 1fr) 20em;
+}
+
+.footer-ps {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    margin-left: 2em;
+    padding: 2em;
+    text-transform: capitalize;
+    font-size: 0.8em;
+}
+
+.footer-ps a {
+    text-decoration: none;
+    margin-left: 2em;
+    color: gray;
+}
+
+.footer-ps a:hover {
+    border-bottom: 1px solid gray;
+    color: rgb(74, 73, 73);
+}
+
+.footer-pf {
+    display: flex;
+    align-items: end;
+    flex-direction: row;
+    text-transform: capitalize;
+    font-size: 0.8em;
+}
+
+.footer-pff{
+    display: flex;
+    align-items: start;
+    justify-content: end;
+    flex-direction: row;
+    margin-right: 5em;
+    padding-bottom: 2em;
+}
+
+
+
+.footer-pf a {
+    text-decoration: none;
+    margin-left: 2em;
+    color: gray;
+}
+
+.footer-pf a:hover {
+    border-bottom: 1px solid gray;
+    color: rgb(74, 73, 73);
+}
+
+.footer{
+    background-color: rgb(227, 227, 227);
 }
