@@ -253,6 +253,7 @@
     flex-direction: row;
     margin-left: 5em;
     text-transform: capitalize;
+    margin: 2em;
 }
 
 .redes img {
@@ -349,4 +350,54 @@
 
 .footer{
     background-color: rgb(227, 227, 227);
+}
+
+
+/*/*------------------------------------------xbox*/
+
+.carrusel1 {
+    overflow: hidden;
+
+}
+
+.slider-container1  {
+    display: flex;
+    position: relative;
+    width: 100%;
+    scroll-snap-type: x mandatory;
+    animation: 20s slidy infinite;
+    margin: 0;
+    text-align: left;
+    left: 0;
+    font-size: 0;
+
+}
+
+.slider-container img {
+    flex: 0 0 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    width: 20%;
+    float: left;
+}
+
+
+
+@keyframes slidy {
+    0% {
+        left: 0%;
+    }
+
+    50% {
+        left: -75%;
+    }
+
+    75% {
+        left: -90%;
+    }
+
+    100% {
+        left: -100%;
+    }
+
 }
